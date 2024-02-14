@@ -1,15 +1,11 @@
 {
-  "name": "docs",
   "private": true,
+  "name": "docs",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi generate",
-    "preview": "nuxi preview"
+    "dev": "undocs dev",
+    "build": "undocs build"
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "^1.15.0",
-    "@nuxt/content": "2.12.0",
-    "@nuxtjs/plausible": "^0.2.4",
-    "nuxt": "^3.10.1"
+    "undocs": "latest"
   }
 }
