@@ -60,7 +60,7 @@ frontend:
     preBuild:
       commands:
         - nvm use 18 && node --version
-        - corepack enable && npx --yes nypm install
+        - corepack enable && npx --yes pnpm install
     build:
       commands:
         - pnpm build
